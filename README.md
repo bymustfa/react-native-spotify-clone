@@ -1,7 +1,7 @@
 
 # React Native Spotify app clone with Expo
 
-In this project I started to clone Spotify App clone Expo and React Native.
+In this project I started to Spotify App clone Expo and React Native.
 
 ## What is my purpose?
 
