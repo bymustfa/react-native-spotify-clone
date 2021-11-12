@@ -17,7 +17,7 @@ Investigating the answer to the question of how to improve myself and how to use
 
 ## Screen Shots (Development Images)
 
-![Home Dev Mod](https://i.hizliresim.com/ivz02yu.png)
+<img src="https://i.hizliresim.com/ivz02yu.png" width="250px">
 
 
 
