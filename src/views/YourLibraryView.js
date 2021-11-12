@@ -1,15 +1,17 @@
 import React from "react";
 import { Box, Text, Button } from "../components/base";
+import { Layout } from "../components/elements";
+import { colors } from "../theme";
 
 const YourLibraryView = (props) => {
   return (
     <>
-      <Box flex={1} alignItems="center" justifyContent="center">
-        <Text>LIBRARY PAGE</Text>
+      <Layout>
+        <Text color={colors.white}>LIBRARY PAGE</Text>
         <Button>
-          <Text>----</Text>
+          <Text color={colors.white}>-----</Text>
         </Button>
-      </Box>
+      </Layout>
     </>
   );
 };

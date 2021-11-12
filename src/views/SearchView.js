@@ -1,16 +1,16 @@
 import React from "react";
 import { Box, Text, Button } from "../components/base";
+import { colors } from "../theme";
+import { Layout } from "../components/elements";
 
 const SearchView = (props) => {
   return (
-    <>
-      <Box flex={1} alignItems="center" justifyContent="center">
-        <Text>SEARCH PAGE</Text>
-        <Button>
-          <Text>----</Text>
-        </Button>
-      </Box>
-    </>
+    <Layout>
+      <Text color={colors.white}>SEARCH PAGE</Text>
+      <Button>
+        <Text>----</Text>
+      </Button>
+    </Layout>
   );
 };
 
