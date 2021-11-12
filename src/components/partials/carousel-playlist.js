@@ -5,7 +5,7 @@ import { Box, Text, Button } from "../base";
 import { Image } from "react-native";
 import { colors, radius } from "../../theme";
 
-export default function CarouselPlaylist(props) {
+export default function CarouselPlaylist({ title = "" }) {
   const range = (start, end) => {
     return Array.from({ length: end - start }, (v, k) => k + start);
   };
@@ -15,7 +15,7 @@ export default function CarouselPlaylist(props) {
   return (
     <>
       <Box>
-        <Head title="Your shows" mb={3} />
+        <Head title={title} mb={3} />
 
         <Box
           flexDirection="row"

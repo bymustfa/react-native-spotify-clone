@@ -4,7 +4,7 @@ import { colors } from "../../theme";
 import { Setting2, Notification, Radar2 } from "iconsax-react-native";
 import { Head } from "../elements";
 
-export default function HomeHeader(props) {
+export default function HomeHeader() {
   const [label, setLabel] = useState("Good evening");
 
   useEffect(() => {

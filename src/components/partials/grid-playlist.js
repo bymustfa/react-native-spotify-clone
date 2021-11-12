@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "../base";
 import PlaylistGridItem from "./playlist-grid-item";
 
-export default function GridPlaylist(props) {
+export default function GridPlaylist() {
   return (
     <>
       <Box flexDirection="row" flexWrap="wrap" mt={25}>
