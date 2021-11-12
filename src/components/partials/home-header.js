@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
-import { Box, Text, Button } from "../base";
+import { Box, Button } from "../base";
 import { colors } from "../../theme";
 import { Setting2, Notification, Radar2 } from "iconsax-react-native";
 import { Head } from "../elements";
 
 export default function HomeHeader(props) {
-  const [label, setLabel] = useState("Good Evening");
+  const [label, setLabel] = useState("Good evening");
 
   useEffect(() => {
     const today = new Date();
     const curHr = today.getHours();
 
     if (curHr < 12) {
-      setLabel("Good Morning");
+      setLabel("Good morning");
     } else if (curHr < 18) {
-      setLabel("Good Afternoon");
+      setLabel("Good afternoon");
     } else {
-      setLabel("Good Evening");
+      setLabel("Good evening");
     }
   }, []);
 

@@ -33,3 +33,4 @@ src/theme/index.js
 ## Map Road
 
 - _Day 1:_  Screens and bottom tab create.  Theme color set. Icons set
+- _Day 2:_  Compenents create. Grid and carousel play list design
