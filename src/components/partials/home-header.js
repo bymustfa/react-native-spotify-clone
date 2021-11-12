@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Box, Text, Button } from "../base";
 import { colors } from "../../theme";
 import { Setting2, Notification, Radar2 } from "iconsax-react-native";
+import { Head } from "../elements";
 
 export default function HomeHeader(props) {
   const [label, setLabel] = useState("Good Evening");
@@ -21,9 +22,7 @@ export default function HomeHeader(props) {
 
   return (
     <Box flexDirection="row" justifyContent="space-between" alignItems="center">
-      <Text fontWeight="bold" fontSize={22} color={colors.white}>
-        {label}
-      </Text>
+      <Head title={label} />
       <Box flexDirection="row" justifyContent="space-between" minWidth="28%">
         <Button>
           <Notification size="24" color={colors.white} />

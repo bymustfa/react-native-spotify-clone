@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   return (
     <>
       <StatusBar style="light" backgroundColor={colors.darkestGrey} />
-      <Box as={SafeAreaView} pt={40} px={2} flex={1} bg={colors.darkestGrey}>
+      <Box as={SafeAreaView} pt={40} px={3} flex={1} bg={colors.darkestGrey}>
         {children}
       </Box>
     </>
