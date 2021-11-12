@@ -26,3 +26,10 @@ src/theme/index.js
 | white | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
 | grey | ![#B3B3B3](https://via.placeholder.com/10/B3B3B3?text=+) #B3B3B3 | 
 | green | ![#57B65F](https://via.placeholder.com/10/57B65F?text=+) #57B65F | 
+
+
+
+
+## Map Road
+
+- _Day 1:_  Screens and bottom tab create.  Theme color set. Icons set
