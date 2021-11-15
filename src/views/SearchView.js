@@ -3,7 +3,7 @@ import { Box, Text, Button } from "../components/base";
 import { colors } from "../theme";
 import { Layout } from "../components/elements";
 
-const SearchView = (props) => {
+const SearchView = () => {
   return (
     <Layout>
       <Text color={colors.white}>SEARCH PAGE</Text>

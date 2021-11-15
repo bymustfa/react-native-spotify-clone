@@ -17,7 +17,7 @@ Investigating the answer to the question of how to improve myself and how to use
 
 ## Screen Shots (Development Images)
 
-<img src="https://i.hizliresim.com/ivz02yu.png" width="250px">
+<img src="https://i.hizliresim.com/lwxw6tf.png" width="250px">
 
 
 
@@ -40,5 +40,5 @@ src/theme/index.js
 
 ## Map Road
 
-- _Day 1:_  Screens and bottom tab create.  Theme color set. Icons set
+- _Day 1:_  Screens and bottom tab create. Theme color set. Icons set
 - _Day 2:_  Compenents create. Grid and carousel play list design
